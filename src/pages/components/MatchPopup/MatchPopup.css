@@ -1,0 +1,51 @@
+.match-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.match-container > .avatar {
+  width: 200px;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  border-radius: 200px;
+  margin: 20px;
+}
+
+.match-container > .name {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  font-size: 1.4rem;
+  max-width: 400px;
+}
+
+.match-container > .bio {
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 500px;
+  text-align: justify;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.match-container > .btn-close-match {
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.match-container > .btn-close-match:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.hidden {
+  display: none;
+}
